@@ -26,8 +26,8 @@ Route::group([
 
             if ($validator->fails()) {
                 return response()->json([
-                    'message' => 'Validation failed',
-                    'errors' => $validator->errors()->toArray()
+                    'message' => $validator->errors()->first(),
+                    'errors'  => $validator->errors()->toArray()
                 ], 422);
             }
 
