@@ -1,0 +1,41 @@
+{
+    "name": "souravmsh/laravel-widget",
+    "description": "A Laravel package of many widget like font-hunter etc.",
+    "keywords": [
+        "souravmsh",
+        "laravel",
+        "laravel-widget"
+    ],
+    "homepage": "https://github.com/souravmsh/laravel-widget",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shohrab Hossain",
+            "email": "sourav.diubd@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0",
+        "illuminate/filesystem": "^9.0|^10.0",
+        "illuminate/http": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Souravmsh\\LaravelWidget\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Souravmsh\\LaravelWidget\\LaravelWidgetServiceProvider"
+            ],
+            "aliases": {
+                "FontHunter": "Souravmsh\\LaravelWidget\\Facades\\FontHunter"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
