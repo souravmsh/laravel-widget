@@ -74,10 +74,6 @@
             {!! $messages !!}
         @endif
     </div>
-
-    <div class="lw-font-hunter-footer">
-        Powered by <a href="https://codekernel.net" target="_blank">CodeKernel</a>
-    </div>
 </div>
 
 <script>
