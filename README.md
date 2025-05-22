@@ -12,9 +12,9 @@ The package currently includes its first widget: **Font Hunter** — a utility t
 
 ## Features
 
-- 📦 **Widget Bundle Ready**: Designed to host multiple widgets under one package.
-- ⚙️ **Reusable Blade Components**: Easily embed widgets using Blade components.
-- 🎨 **Customizable Configurations**: Control storage paths, file names, and other settings.
+- **Widget Bundle Ready**: Designed to host multiple widgets under one package.
+- **Reusable Blade Components**: Easily embed widgets using Blade components.
+- **Customizable Configurations**: Control storage paths, file names, and other settings.
 
 ---
 
@@ -67,7 +67,6 @@ composer require souravmsh/laravel-widget:dev-main
 ## Usage
 
 ### 1. Font Hunter Widget
-# 📦 Font Hunter Widget
 
 **Font Hunter Widget** is a Laravel package that provides a reusable, interactive Blade component for downloading Google Fonts and their associated CSS files. 
 With a modern, Tailwind CSS-powered interface, users can simply input a Google Fonts CSS URL, fetch the font files, generate a custom CSS, and download everything as a convenient zip archive.
