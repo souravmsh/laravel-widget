@@ -102,11 +102,19 @@ or
 Customize the package settings in `config/laravel-widget.php`:
 
 ```php
+
 return [
-    'dir' => storage_path('app/public/laravel-widget/'),
-    'fonts_dir' => 'fonts/',
-    'css_dir' => 'css/',
-    'file_name' => 'fonts.css',
+
+    'middleware' => ['web'], // Middleware for the route
+    'url_prefix' => 'laravel-widget', // URL prefix for the route
+
+    // font hunter 
+    "font_hunter" => [
+        'dir'        => 'laravel-widget/font-hunter', // Base directory for storing files
+        'fonts_dir'  => 'fonts', // Subdirectory for font files
+        'css_dir'    => 'css', // Subdirectory for CSS files
+        'file_name'  => 'fonts.css', // Name of the CSS file
+    ]  
 ];
 ```
 
