@@ -138,14 +138,7 @@ You can adjust:
 
 This package is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
----
-
-## Credits
-
-* **Author**: Shohrab Hossain ([sourav.diubd@gmail.com](mailto:sourav.diubd@gmail.com))
-* **Project**: [CodeKernel.Net](http://codekernel.net)
-
----
+--- 
 
 ## Support
 
