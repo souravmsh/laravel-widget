@@ -22,7 +22,7 @@ laravel-widget/
 │   │   └── FontHunterService.php 
 │   ├── View/
 │   │   └── Components/
-│   │       ├── FontHunterWidget.php 
+│   │       ├── AvatarWidget.php 
 │   │       └── FontHunterWidget.php 
 │   ├── Providers/
 │   │   └── LaravelWidgetServiceProvider.php 
