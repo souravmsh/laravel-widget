@@ -32,6 +32,7 @@
                 "Souravmsh\\LaravelWidget\\LaravelWidgetServiceProvider"
             ],
             "aliases": {
+                "Avatar": "Souravmsh\\LaravelWidget\\Facades\\Avatar",
                 "FontHunter": "Souravmsh\\LaravelWidget\\Facades\\FontHunter"
             }
         }
