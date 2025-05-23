@@ -1,6 +1,6 @@
 {
     "name": "souravmsh/laravel-widget",
-    "description": "A Laravel package of many widget like font-hunter etc.",
+    "description": "A Laravel package for building and bundling reusable UI widgets as Blade components.",
     "keywords": [
         "souravmsh",
         "laravel",
