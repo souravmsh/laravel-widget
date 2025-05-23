@@ -1,27 +1,31 @@
 laravel-widget/
 ├── docs/
-│   └── preview1.png 
-│   └── preview2.png 
-│   ├── structure.txt
+│   ├── font-hunter-preview-1.png 
+│   ├── font-hunter-preview-2.png 
+│   └── structure.txt
 ├── config/
 │   └── laravel_widget.php 
 ├── resources/
 │   └── views/
-│       └── font-hunter/
+│       ├── font-hunter/
+│       │   └── index.blade.php 
+│       └── avatar/
 │           └── index.blade.php 
 ├── routes/
 │   └── web.php 
 ├── src/
 │   ├── Facades/
+│   │   ├── Avatar.php 
 │   │   └── FontHunter.php 
 │   ├── Services/
+│   │   ├── AvatarService.php 
 │   │   └── FontHunterService.php 
 │   ├── View/
 │   │   └── Components/
+│   │       ├── FontHunterWidget.php 
 │   │       └── FontHunterWidget.php 
 │   ├── Providers/
 │   │   └── LaravelWidgetServiceProvider.php 
-│   └── LaravelWidget.php (optional)
 ├── composer.json
 ├── README.md
 ├── LICENSE

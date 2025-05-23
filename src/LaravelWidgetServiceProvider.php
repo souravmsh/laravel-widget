@@ -3,10 +3,9 @@
 namespace Souravmsh\LaravelWidget;
 
 use Illuminate\Support\Facades\Blade;
-use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Validator;
 use Souravmsh\LaravelWidget\View\Components\FontHunterWidget;
+use Souravmsh\LaravelWidget\View\Components\AvatarWidget;
 use Souravmsh\LaravelWidget\Facades\FontHunter;
 
 class LaravelWidgetServiceProvider extends ServiceProvider
@@ -28,6 +27,7 @@ class LaravelWidgetServiceProvider extends ServiceProvider
 
         // Publish components
         Blade::component("laravel-widget::font-hunter", FontHunterWidget::class);
+        Blade::component("laravel-widget::avatar", AvatarWidget::class);
 
         // Register route for form processing
         $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
